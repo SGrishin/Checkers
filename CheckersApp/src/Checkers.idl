@@ -1,0 +1,24 @@
+//CheckersApp.idl
+module CheckersApp		
+{
+
+  interface Checkers		
+  { 
+  typedef long mas[8][8];
+  
+  void newStore();
+  long addPlayer(in long n);
+  long IsPlayers();
+  long IsWin();
+  void WinYes(in long p);
+  long xod();
+  void OtherPlayer(in long player);
+  long getPick(in long player, in long x, in long y);
+  long getMove(in long player, in long x1, in long y1, in long x2, in long y2);
+  string sayHello();		
+  string sayAboutWin(in long winser);
+  long checkWin();
+  mas getTable();
+  oneway void shutdown();	
+  };
+};
