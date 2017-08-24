@@ -1,3 +1,3 @@
 # Checkers
 
-My Checkers Application made with CORBA
+My Checkers Application is written on Java using CORBA.
